@@ -11,5 +11,6 @@ module GmoneyClient
   end
 
   self.url = ENV['GMONEY_URL']
+  puts "GMONEY_URL: #{self.url}"
 
 end
